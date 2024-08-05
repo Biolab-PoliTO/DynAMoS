@@ -18,4 +18,4 @@ The functions are the following:
 4. ```[onoff] = dynamos(fnorm)```: This function, with input the norm of the angular velocity, performs ```DynAMoS``` on the norm of the angular velocity. It returns a $nx2$ matrix where the first column represents the onset sample and the second is the offset sample.
 
 ## Hands-on Example
-In the data.mat file sample data are available to test the algorithm.
+In the data.mat file sample data are available to test the algorithm. Data sampling frequency $fs = 100Hz$.

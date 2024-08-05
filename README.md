@@ -16,3 +16,6 @@ The functions are the following:
 2. ```[int] = intervals(act)```: This function gets as input (act) a binary vector that represents the movement (1) and non-movement (0) states identified from the thresholding and returns a $nx2$ matrix. The first column represents the onset sample and the second is the offset sample.
 3. ```[ints] = ints_correction(ints,signal)```: This function executes the iterative process of the algorithm as described above. Inputs are the onset and offset obtained from the ```intervals``` function and the norm of the angular velocity (signal).
 4. ```[onoff] = dynamos(fnorm)```: This function, with input the norm of the angular velocity, performs ```DynAMoS``` on the norm of the angular velocity. It returns a $nx2$ matrix where the first column represents the onset sample and the second is the offset sample.
+
+## Hands-on Example
+In the data.mat file sample data are available to test the algorithm.
